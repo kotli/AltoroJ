@@ -404,8 +404,12 @@ public class ServletUtil {
 //			e.printStackTrace();
 		}
 		
-		//parse swagger properties
+		//parse swagger properties 
 		swaggerInitialized = true;
+		
+		// testing new code adding
+		public String randomString = "randString";
+		System.out.println(randomString);
 	}
 	
 	
